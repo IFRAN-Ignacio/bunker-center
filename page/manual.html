@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de uso | BUNKER</title>
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#0C0C0F">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reserva.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="icon" type="image/png" href="../img/logo.jpg">
+    <script src="../mains/theme-init.js"></script>
+</head>
+<body>
+    <!-- Manual de uso: cada usuario ve solo el de su rol (socio, profe o administración).
+         Se llega desde el final del menú, que solo muestra el enlace con la sesión iniciada. -->
+    <main class="page manual" id="manual-root" hidden>
+        <div class="page__header">
+            <span class="eyebrow">Ayuda</span>
+            <h1>Manual de <span id="manual-role">uso</span></h1>
+            <p>Todo lo que necesitás para usar la página, en pocos pasos.</p>
+        </div>
+
+        <!-- ===================== SOCIO ===================== -->
+        <section class="manual__role" data-role="user" hidden>
+            <article class="panel manual__step">
+                <h2><b>1</b> Contratá un plan</h2>
+                <p>Menú ☰ → <strong>Planes y precios</strong> (o <strong>Mi plan</strong>) → elegí uno y tocá <strong>Contratar</strong>.</p>
+            </article>
+            <article class="panel manual__step">
+                <h2><b>2</b> Pagalo</h2>
+                <ul>
+                    <li><strong>Transferencia:</strong> copiá el alias o el CBU, transferí desde tu banco y escribí el <strong>número de operación</strong>.</li>
+                    <li><strong>Efectivo:</strong> tocá <strong>Voy a pagar en el box</strong> y pagá en la recepción.</li>
+                </ul>
+                <p>El pago queda <strong>En revisión</strong> hasta que el gimnasio lo confirma. Cuando lo aprueba, tu plan se activa. Si saliste sin terminar, en el inicio vas a ver <strong>Continuar pago</strong>.</p>
+            </article>
+            <article class="panel manual__step">
+                <h2><b>3</b> Reservá tu clase</h2>
+                <p>Menú ☰ → <strong>Reservar clase</strong> → elegí la actividad, el día, el horario y tu lugar (boleto) → <strong>Confirmar reserva</strong>.</p>
+            </article>
+            <article class="panel manual__step">
+                <h2><b>4</b> Mirá o cancelá tus reservas</h2>
+                <p>Menú ☰ → <strong>Mis reservas</strong>. Podés cancelar hasta 2 horas antes de la clase. En <strong>Mi calendario</strong> ves todo el mes.</p>
+            </article>
+            <article class="panel manual__tips">
+                <h2>Bueno saber</h2>
+                <ul>
+                    <li>En el <strong>inicio</strong> ves tu plan, tu próxima clase y si tenés un pago pendiente.</li>
+                    <li>Si una clase dice <strong>Falta profe</strong>, el profe avisó que no viene: el gimnasio la reorganiza.</li>
+                    <li>¿Dudas? Tocá <strong>¿Dudas?</strong> abajo a la derecha y preguntale al asistente.</li>
+                    <li>Tu contraseña y tus datos se cambian en <strong>Mi perfil</strong>.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ===================== PROFE ===================== -->
+        <section class="manual__role" data-role="profe" hidden>
+            <article class="panel manual__step">
+                <h2><b>1</b> Tus próximos 7 días</h2>
+                <p>Al entrar ves tus clases de la semana. En cada una ves <strong>cuántos alumnos hay anotados y quiénes son</strong>.</p>
+            </article>
+            <article class="panel manual__step">
+                <h2><b>2</b> Avisá si no podés ir</h2>
+                <p>En la clase, tocá <strong>Avisar que falto</strong> y escribí el motivo (solo lo ve la administración). Los socios ven que esa clase tiene <strong>falta de profe</strong>. Si al final vas, tocá <strong>Retirar aviso (voy a ir)</strong>.</p>
+            </article>
+            <article class="panel manual__step">
+                <h2><b>3</b> Tu calendario y tus horarios</h2>
+                <p><strong>Mi calendario</strong> muestra el mes completo. <strong>Mis horarios</strong> muestra la semana que tenés asignada. Los horarios los asigna la administración.</p>
+            </article>
+            <article class="panel manual__tips">
+                <h2>Bueno saber</h2>
+                <ul>
+                    <li>Tu contraseña se cambia en <strong>Mi cuenta</strong>. Si te la olvidás, pedile una nueva a la administración.</li>
+                    <li>Si te falta o te sobra una clase en tus horarios, avisale a la administración.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ===================== ADMIN ===================== -->
+        <section class="manual__role" data-role="admin" hidden>
+            <article class="panel manual__step">
+                <h2><b>1</b> Todos los días: aprobar pagos</h2>
+                <p>Pestaña <strong>Pagos</strong>. Los socios pagan por transferencia o en efectivo y el pago llega "En revisión".</p>
+                <ul>
+                    <li><strong>Transferencia:</strong> fijate en el banco que entró con ese número de operación → <strong>Aprobar</strong>.</li>
+                    <li><strong>Efectivo:</strong> cuando te paga en el box → <strong>Aprobar</strong>.</li>
+                    <li>Si no se pagó → <strong>Rechazar</strong> con el motivo (el socio lo ve).</li>
+                </ul>
+            </article>
+            <article class="panel manual__step">
+                <h2><b>2</b> Ver quién viene</h2>
+                <p>Pestaña <strong>Reservas</strong>: filtrá por fecha y clase. Si un socio paga en el mostrador sin usar la página: <strong>Socios</strong> → <strong>Ver ficha</strong> → <strong>Registrar plan cobrado en el box</strong>.</p>
+            </article>
+            <article class="panel manual__step">
+                <h2><b>3</b> Profes</h2>
+                <p><strong>Profes</strong> → <strong>+ Nuevo profe</strong> (nombre, correo y contraseña inicial) → <strong>Asignar horarios</strong>. Si se olvida la contraseña: <strong>Nueva clave</strong>. Abajo ves las ausencias avisadas con el motivo.</p>
+            </article>
+            <article class="panel manual__tips">
+                <h2>Cada tanto</h2>
+                <div class="table-wrap"><table class="data-table">
+                    <thead><tr><th>Quiero…</th><th>Pestaña</th></tr></thead>
+                    <tbody>
+                        <tr><td>Cambiar un precio o crear un plan</td><td>Planes y precios</td></tr>
+                        <tr><td>Agregar o cambiar una clase u horario</td><td>Clases y horarios</td></tr>
+                        <tr><td>Cerrar por feriado o suspender una clase</td><td>Bloqueos</td></tr>
+                        <tr><td>Poner un aviso arriba de la página</td><td>Avisos</td></tr>
+                        <tr><td>Hacer una promo: marcá el plan con "Promo hasta" y publicá un aviso con el botón a esa promo</td><td>Planes y precios + Avisos</td></tr>
+                        <tr><td>Cambiar el horario de apertura</td><td>Horario del box</td></tr>
+                        <tr><td>Productos del mostrador o "sin stock"</td><td>Productos</td></tr>
+                        <tr><td>Que el asistente sepa algo nuevo</td><td>Asistente IA → + Nuevo dato extra</td></tr>
+                        <tr><td>Contacto, alias, CBU y titular para transferir</td><td>Configuración</td></tr>
+                        <tr><td>Ver quién cambió algo y cuándo</td><td>Auditoría</td></tr>
+                    </tbody>
+                </table></div>
+            </article>
+            <article class="panel manual__tips">
+                <h2>Importante</h2>
+                <ul>
+                    <li>La página funciona mientras esté abierta la ventana negra de <strong>iniciar.bat</strong>.</li>
+                    <li>Nunca uses <strong>reiniciar-base.bat</strong> con el gimnasio funcionando: borra socios, reservas y pagos.</li>
+                    <li>Una vez por semana copiá la carpeta <strong>data</strong> a un pendrive o a Drive (con la página apagada).</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <script src="../mains/api.js"></script>
+    <script src="../mains/manual.js"></script>
+</body>
+</html>

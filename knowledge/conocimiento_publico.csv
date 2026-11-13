@@ -1,0 +1,61 @@
+﻿categoria,tema,dato
+gimnasio,Nombre,"Bunker Center (Crossfit & Training), Mar del Plata"
+gimnasio,Dirección,"Av. Juan José Paso 3255, Mar del Plata"
+gimnasio,Teléfono,223 5282837
+gimnasio,WhatsApp,5492235282837 (https://wa.me/5492235282837)
+gimnasio,Instagram,bunker.gym (https://instagram.com/bunker.gym)
+gimnasio,Facebook,https://facebook.com
+gimnasio,Nota sobre horarios,Las clases de Entrenamiento Híbrido arrancan en punto · Open Box con horario libre.
+horario del gimnasio,lunes,abierto de 07:00 a 21:00
+horario del gimnasio,martes,abierto de 07:00 a 21:00
+horario del gimnasio,miércoles,abierto de 07:00 a 21:00
+horario del gimnasio,jueves,abierto de 07:00 a 21:00
+horario del gimnasio,viernes,abierto de 07:00 a 21:00
+horario del gimnasio,sábado,abierto de 09:00 a 12:00
+horario del gimnasio,domingo,cerrado
+actividad,Crossfit,"Mejorá tu fuerza, resistencia y potencia con entrenamientos variados y de alta intensidad."
+horarios de clases,Crossfit los lunes,"07:00 a 08:00 (cupo 12, profe Lucas P. y Martina R.); 08:00 a 09:00 (cupo 12, profe Lucas P. y Martina R.); 09:00 a 10:00 (cupo 12, profe Lucas P. y Martina R.); 12:30 a 13:30 (cupo 12, profe Lucas P. y Martina R.); 13:30 a 14:30 (cupo 12, profe Lucas P. y Martina R.); 14:30 a 15:30 (cupo 12, profe Lucas P. y Martina R.); 17:00 a 18:00 (cupo 12, profe Lucas P. y Martina R.); 18:00 a 19:00 (cupo 12, profe Lucas P. y Martina R.); 19:00 a 20:00 (cupo 12, profe Lucas P. y Martina R.); 20:00 a 21:00 (cupo 12, profe Lucas P. y Martina R.)"
+horarios de clases,Crossfit los miércoles,"07:00 a 08:00 (cupo 12, profe Lucas P. y Martina R.); 08:00 a 09:00 (cupo 12, profe Lucas P. y Martina R.); 09:00 a 10:00 (cupo 12, profe Lucas P. y Martina R.); 12:30 a 13:30 (cupo 12, profe Lucas P. y Martina R.); 13:30 a 14:30 (cupo 12, profe Lucas P. y Martina R.); 14:30 a 15:30 (cupo 12, profe Lucas P. y Martina R.); 17:00 a 18:00 (cupo 12, profe Lucas P. y Martina R.); 18:00 a 19:00 (cupo 12, profe Lucas P. y Martina R.); 19:00 a 20:00 (cupo 12, profe Lucas P. y Martina R.); 20:00 a 21:00 (cupo 12, profe Lucas P. y Martina R.)"
+horarios de clases,Crossfit los viernes,"07:00 a 08:00 (cupo 12, profe Lucas P. y Martina R.); 08:00 a 09:00 (cupo 12, profe Lucas P. y Martina R.); 09:00 a 10:00 (cupo 12, profe Lucas P. y Martina R.); 12:30 a 13:30 (cupo 12, profe Lucas P. y Martina R.); 13:30 a 14:30 (cupo 12, profe Lucas P. y Martina R.); 14:30 a 15:30 (cupo 12, profe Lucas P. y Martina R.); 17:00 a 18:00 (cupo 12, profe Lucas P. y Martina R.); 18:00 a 19:00 (cupo 12, profe Lucas P. y Martina R.); 19:00 a 20:00 (cupo 12, profe Lucas P. y Martina R.); 20:00 a 21:00 (cupo 12, profe Lucas P. y Martina R.)"
+actividad,Entrenamiento Funcional,Movimientos naturales para mejorar tu vida diaria y prevenir lesiones.
+horarios de clases,Entrenamiento Funcional los lunes,07:00 a 08:00 (cupo 12); 08:00 a 09:00 (cupo 12); 09:00 a 10:00 (cupo 12); 12:30 a 13:30 (cupo 12); 13:30 a 14:30 (cupo 12); 14:30 a 15:30 (cupo 12); 17:00 a 18:00 (cupo 12); 18:00 a 19:00 (cupo 12); 19:00 a 20:00 (cupo 12); 20:00 a 21:00 (cupo 12)
+horarios de clases,Entrenamiento Funcional los miércoles,07:00 a 08:00 (cupo 12); 08:00 a 09:00 (cupo 12); 09:00 a 10:00 (cupo 12); 12:30 a 13:30 (cupo 12); 13:30 a 14:30 (cupo 12); 14:30 a 15:30 (cupo 12); 17:00 a 18:00 (cupo 12); 18:00 a 19:00 (cupo 12); 19:00 a 20:00 (cupo 12); 20:00 a 21:00 (cupo 12)
+horarios de clases,Entrenamiento Funcional los viernes,07:00 a 08:00 (cupo 12); 08:00 a 09:00 (cupo 12); 09:00 a 10:00 (cupo 12); 12:30 a 13:30 (cupo 12); 13:30 a 14:30 (cupo 12); 14:30 a 15:30 (cupo 12); 17:00 a 18:00 (cupo 12); 18:00 a 19:00 (cupo 12); 19:00 a 20:00 (cupo 12); 20:00 a 21:00 (cupo 12)
+actividad,Entrenamiento Híbrido,Lo mejor de la fuerza y la resistencia en una sola clase. ¡Arrancan en punto!
+horarios de clases,Entrenamiento Híbrido los martes,"07:00 a 08:00 (cupo 12, profe Lucas P.); 08:00 a 09:00 (cupo 12, profe Lucas P.); 09:00 a 10:00 (cupo 12, profe Lucas P.); 12:30 a 13:30 (cupo 12, profe Lucas P.); 13:30 a 14:30 (cupo 12, profe Lucas P.); 16:30 a 17:30 (cupo 12, profe Lucas P.); 17:00 a 18:00 (cupo 12, profe Lucas P.); 18:00 a 19:00 (cupo 12, profe Lucas P.); 19:00 a 20:00 (cupo 12, profe Lucas P.); 20:00 a 21:00 (cupo 12, profe Lucas P.)"
+horarios de clases,Entrenamiento Híbrido los jueves,"07:00 a 08:00 (cupo 12, profe Lucas P.); 08:00 a 09:00 (cupo 12, profe Lucas P.); 09:00 a 10:00 (cupo 12, profe Lucas P.); 12:30 a 13:30 (cupo 12, profe Lucas P.); 13:30 a 14:30 (cupo 12, profe Lucas P.); 16:30 a 17:30 (cupo 12, profe Lucas P.); 17:00 a 18:00 (cupo 12, profe Lucas P.); 18:00 a 19:00 (cupo 12, profe Lucas P.); 19:00 a 20:00 (cupo 12, profe Lucas P.); 20:00 a 21:00 (cupo 12, profe Lucas P.)"
+horarios de clases,Entrenamiento Híbrido los sábados,"09:00 a 10:00 (cupo 12, profe Lucas P.); 10:00 a 11:00 (cupo 12, profe Lucas P.); 11:00 a 12:00 (cupo 12, profe Lucas P.)"
+actividad,Open Box,Entrená a tu ritmo con horario libre y supervisión de nuestros coaches.
+horarios de clases,Open Box los lunes,10:00 a 12:30 (cupo 10); 15:30 a 17:00 (cupo 12)
+horarios de clases,Open Box los martes,10:00 a 12:30 (cupo 10); 15:30 a 17:00 (cupo 12)
+horarios de clases,Open Box los miércoles,10:00 a 12:30 (cupo 10); 15:30 a 17:00 (cupo 12)
+horarios de clases,Open Box los jueves,10:00 a 12:30 (cupo 10); 15:30 a 17:00 (cupo 12)
+horarios de clases,Open Box los viernes,10:00 a 12:30 (cupo 10); 15:30 a 17:00 (cupo 12)
+horarios de clases,Open Box los sábados,09:00 a 10:00 (cupo 10); 10:00 a 11:00 (cupo 10); 11:00 a 12:00 (cupo 10)
+plan y precio,Pase libre,"$45.000 por 30 días, cualquier clase, sin límite semanal, plan destacado. Todas las clases y Open Box, sin límite semanal."
+plan y precio,3 veces por semana,"$38.000 por 30 días, cualquier clase, hasta 3 clase(s) por semana. Cualquier clase, hasta 3 por semana."
+plan y precio,2 veces por semana,"$32.000 por 30 días, cualquier clase, hasta 2 clase(s) por semana. Cualquier clase, hasta 2 por semana."
+plan y precio,Solo Crossfit,"$36.000 por 30 días, solo Crossfit, sin límite semanal. Clases de Crossfit sin límite semanal."
+plan y precio,Solo Open Box,"$28.000 por 30 días, solo Open Box, sin límite semanal. Entrená a tu ritmo en los horarios de Open Box."
+plan y precio,promo viernes 13,"$6.666 por 30 días, cualquier clase, sin límite semanal, PROMO válida hasta el 14/11."
+plan y precio,Pase diario,"$8.000 por 1 día, cualquier clase, hasta 1 clase(s) por semana. Una clase suelta para probar el box."
+producto del mostrador,Shaker Bunker 600 ml,$7.000 · Accesorios · hay stock. Con compartimento para polvo.
+producto del mostrador,Muñequeras,"$9.000 · Accesorios · hay stock. Par, ajuste con abrojo."
+producto del mostrador,Agua mineral 500 ml,"$1.500 · Bebidas · hay stock. Fría, en la heladera del box."
+producto del mostrador,Bebida isotónica 500 ml,$2.500 · Bebidas · hay stock. Varios sabores.
+producto del mostrador,Remera Bunker,"$18.000 · Indumentaria · hay stock. Algodón, talles S a XXL."
+producto del mostrador,Barra de proteína,$2.800 · Snacks · hay stock. 20 g de proteína. Chocolate o frutilla.
+producto del mostrador,Proteína whey 1 kg,$38.000 · Suplementos · hay stock. Consultá sabores disponibles en recepción.
+producto del mostrador,Creatina monohidrato 300 g,$25.000 · Suplementos · sin stock por ahora. Sin sabor.
+producto del mostrador,Cómo se compran,Los productos se compran en el mostrador del gimnasio. La página solo muestra precios; no hay compra online.
+reglas,Anticipación para reservar,Se puede reservar con hasta 14 días de anticipación.
+reglas,Cancelación,"Se cancela desde ""Mis reservas"" hasta 2 h antes de la clase."
+reglas,Plan para reservar,Para reservar hace falta un plan activo que incluya esa actividad.
+reglas,Boleto,Al reservar se elige un boleto: es tu lugar numerado en la clase. Cada clase tiene un cupo máximo.
+pagos,Medios de pago,"Transferencia bancaria (desde la página ves alias, CBU y titular, y después informás el número de operación) o efectivo en la recepción. En los dos casos el pago queda en revisión hasta que el administrador lo confirma. No se aceptan tarjetas."
+pagos,Datos para transferir,Alias BUNKER.PRUEBA.MDP · CBU/CVU 0000000000000000000000 · titular Bunker Center (DATOS DE PRUEBA).
+pagos,Aprobación,Los pagos por transferencia o efectivo los aprueba el gimnasio; el plan se activa cuando el pago queda aprobado. Un pago iniciado y no pagado se cancela solo a los 3 días.
+cuenta,Crear cuenta,"Desde ""Ingresar"" → ""Crear cuenta"" con nombre, apellido, correo y una contraseña de al menos 8 caracteres con letras y números."
+cuenta,Olvidé mi contraseña,Por ahora se resuelve en la recepción del gimnasio o por WhatsApp.
+aviso vigente,Aviso del gimnasio,"Por el dia viernes 13, hay promo especial, disfruten Muajaja"
+sistema,Datos actualizados,2026-11-13 15:51

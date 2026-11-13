@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUNKER | Iniciar sesión</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" type="image/png" href="../img/logo.jpg">
+    <script src="../mains/theme-init.js"></script>
+</head>
+<body>
+
+    <div class="auth">
+
+        <aside class="auth__visual">
+            <a href="index.html" class="auth__logo">BUNKER<span>.</span></a>
+
+            <div class="auth__visual-content">
+                <h2>Entrená como en el <span class="grad">Bunker</span></h2>
+                <p>Superá tus límites en un ambiente diseñado para el rendimiento y la comunidad.</p>
+                <ul class="auth__features">
+                    <li>Crossfit · Funcional · Híbrido</li>
+                    <li>Coaches capacitados</li>
+                    <li>Horarios de lunes a sábado</li>
+                </ul>
+            </div>
+
+            <div class="auth__visual-foot">
+                <span>Mar del Plata · Av. Juan José Paso 3255</span>
+            </div>
+        </aside>
+
+        <main class="auth__main">
+            <div class="auth__card">
+
+                <div id="auth-tabs-wrap">
+                    <div class="auth__tabs" role="tablist">
+                        <button type="button" class="auth__tab is-active" data-tab="login" role="tab" aria-selected="true">
+                            Iniciar sesión
+                        </button>
+                        <button type="button" class="auth__tab" data-tab="register" role="tab" aria-selected="false">
+                            Crear cuenta
+                        </button>
+                    </div>
+                </div>
+
+                <form class="auth__form is-active" id="form-login" data-form="login" method="post" action="login.html" novalidate>
+                    <h1>Bienvenido de nuevo</h1>
+                    <p class="auth__sub">Ingresá con tu correo y contraseña.</p>
+
+                    <div class="field">
+                        <label for="login-email">Correo electrónico</label>
+                        <input type="email" id="login-email" name="email" maxlength="120" placeholder="tu@email.com" autocomplete="email">
+                        <span class="field__error" data-error-for="login-email"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="login-password">Contraseña</label>
+                        <div class="field__pass">
+                            <input type="password" id="login-password" name="password" placeholder="Tu contraseña" autocomplete="current-password">
+                            <button type="button" class="toggle-pass" data-target="login-password" aria-label="Mostrar contraseña">
+                                <svg class="eye-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                <svg class="eye-closed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
+                            </button>
+                        </div>
+                        <span class="field__error" data-error-for="login-password"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--block">Entrar</button>
+
+                    <p class="auth__switch">
+                        ¿No tenés cuenta?
+                        <button type="button" data-switch="register">Creá una</button>
+                    </p>
+                </form>
+
+                <form class="auth__form" id="form-register" data-form="register" method="post" action="login.html" novalidate>
+                    <h1>Creá tu cuenta</h1>
+                    <p class="auth__sub">Completá tus datos para empezar a entrenar.</p>
+
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="reg-name">Nombre</label>
+                            <input type="text" id="reg-name" name="name" placeholder="Tu nombre" autocomplete="given-name">
+                            <span class="field__error" data-error-for="reg-name"></span>
+                        </div>
+                        <div class="field">
+                            <label for="reg-lastname">Apellido</label>
+                            <input type="text" id="reg-lastname" name="lastname" placeholder="Tu apellido" autocomplete="family-name">
+                            <span class="field__error" data-error-for="reg-lastname"></span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="reg-email">Correo electrónico</label>
+                        <input type="email" id="reg-email" name="email" placeholder="tu@email.com" autocomplete="email">
+                        <span class="field__error" data-error-for="reg-email"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="reg-password">Contraseña</label>
+                        <div class="field__pass">
+                            <input type="password" id="reg-password" name="password" placeholder="Mínimo 8 caracteres" autocomplete="new-password">
+                            <button type="button" class="toggle-pass" data-target="reg-password" aria-label="Mostrar contraseña">
+                                <svg class="eye-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                <svg class="eye-closed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
+                            </button>
+                        </div>
+                        <span class="field__hint">Mínimo 8 caracteres, con letras y números, sin espacios</span>
+                        <span class="field__error" data-error-for="reg-password"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--block">Crear cuenta</button>
+
+                    <p class="auth__switch">
+                        ¿Ya tenés cuenta?
+                        <button type="button" data-switch="login">Iniciá sesión</button>
+                    </p>
+                </form>
+
+                <form class="auth__form" id="form-admin-code" data-form="admin-code" method="post" action="login.html" novalidate>
+                    <h1>Verificación de administrador</h1>
+                    <p class="auth__sub">Ingresá el código de 9 dígitos para acceder al panel.</p>
+
+                    <div class="field">
+                        <label for="admin-code">Código de acceso</label>
+                        <input type="text" id="admin-code" name="code" inputmode="numeric" placeholder="000000000" maxlength="9" autocomplete="off">
+                        <span class="field__error" data-error-for="admin-code"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--block">Acceder al panel</button>
+
+                    <p class="auth__switch">
+                        <button type="button" data-switch="login">← Volver al inicio de sesión</button>
+                    </p>
+                </form>
+
+            </div>
+
+            <p class="auth__copy"><a href="index.html">← Volver al inicio</a></p>
+            <p class="auth__copy">© <span id="auth-year">2026</span> Bunker · Todos los derechos reservados.</p>
+        </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="../mains/api.js"></script>
+    <script src="../mains/login.js"></script>
+</body>
+</html>
